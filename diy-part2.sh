@@ -18,4 +18,3 @@ sed -i 's/192.168.1.1/10.10.10.251/g' package/base-files/files/bin/config_genera
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
-sed -i 's/PKG_USE_MIPS16/PKG_BUILD_FLAGS:=no-mips16\nPKG_USE_MIPS16/' feeds/helloworld/v2ray-plugin/Makefile
