@@ -27,17 +27,6 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
- 
-CPU_SELECTION:
-  description: 'CPU优选,增加编译速度'
-  required: true
-  default: '默认'
-  type: choice
-  options:
-    - '默认'
-    - '8370C'
-    - '8272CL'
-    - '8171M'
 
 jobs:
   build:
